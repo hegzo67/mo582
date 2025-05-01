@@ -1,0 +1,55 @@
+/* تصميم صفحة اتصل بنا */
+.contact-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+}
+
+.contact-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: right;
+}
+
+.contact-container h2 {
+    margin-bottom: 20px;
+    color: #003366;
+    text-align: center;
+}
+
+.contact-container label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.contact-container button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-container button:hover {
+    background-color: #0055aa;
+}
